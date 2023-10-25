@@ -1,0 +1,8 @@
+""2023-10-22 11:36:53" INFO 18516 conftest.py login_as_******()"
+""2023-10-22 11:36:53" DEBUG 18516 conftest.py Login payload: {'username': '******', 'password': '******'}"
+""2023-10-22 11:36:53" DEBUG 18516 connectionpool.py Starting new HTTP connection (1): localhost:8080"
+""2023-10-22 11:36:53" DEBUG 18516 connectionpool.py http://localhost:8080 "POST /auth/login HTTP/1.1" 200 285"
+""2023-10-22 11:36:53" INFO 18516 test_comments.py test_get_all_comments"
+""2023-10-22 11:36:53" DEBUG 18516 connectionpool.py http://localhost:8080 "GET /comments HTTP/1.1" 307 None"
+""2023-10-22 11:36:53" DEBUG 18516 connectionpool.py http://localhost:8080 "GET /comments/ HTTP/1.1" 200 45"
+""2023-10-22 11:36:53" DEBUG 18516 test_comments.py [{'id': 1, 'comment_text': 'bla bla', 'likes': 0}]"
