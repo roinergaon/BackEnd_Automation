@@ -18,7 +18,7 @@ class Users:
         request_headers = build_request_headers(access_token, content_type="application/json")
         payload = {"username": username, "password_hash": password, "roles": role}
         LOG.debug(f"Request payload: {payload}")
-        response = SESSION.post(f"{app_url}{self.url}", headers=request_headers, json=payload)
+        response = SESSION.post(f"{app_url}{self.users_url}", headers=request_headers, json=payload)
         return response
 
     def get_current_user(self, app_url, access_token):

@@ -9,7 +9,7 @@ class Auth:
 
     def login(self, app_url, username, password):
         LOG.info("login")
-        request_headers = {"Content-Type: application/x-www-form-urlencoded"}
+        request_headers = {"Content-Type": "application/x-www-form-urlencoded", "accept": "application/json"}
         payload = {"username": username, "password": password}
         LOG.debug(f"Request payload: {payload}")
         response = SESSION.post(f"{app_url}{self.auth_url}/login", headers=request_headers, data=payload)

@@ -6,8 +6,8 @@ def test_user_permissions(login_as_admin):
     LOG.info("test_user_permissions")
 
     #Create new user and assign "user" role
-    new_username = "rap111"
-    new_password = "solo111"
+    new_username = "rap1147"
+    new_password = "solo113"
     new_user_roles = "user"
     repsonse = Users().create_user(APP_URL, login_as_admin, new_username, new_password)
     assert repsonse.ok

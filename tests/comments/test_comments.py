@@ -15,6 +15,7 @@ def test_get_all_comments(login_as_admin):
 
 
 def test_cud_comment(login_as_admin):
+    # Create Update and delete comments
     LOG.info("test_cud_comment")
     response = Comments().create_comment(APP_URL, login_as_admin, "first post")
     assert response.ok

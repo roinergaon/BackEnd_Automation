@@ -16,7 +16,7 @@ class Comments:
     def create_comment(self, app_url, accesss_token, message):
         LOG.info("create_comment")
         request_headers = build_request_headers(accesss_token)
-        payload = {"text: message"}
+        payload = {"text": message}
         LOG.debug(f"Request payload: {payload}")
         response = SESSION.post(f"{app_url}{self.comment_url}/", headers=request_headers, params=payload)
         return response
