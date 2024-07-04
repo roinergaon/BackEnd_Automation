@@ -7,3 +7,5 @@ This repository contains code for backend automation using Python, primarily foc
 - Python programming language
 - Requests library for making HTTP requests
 - PyTest framework for test automation
+![1](https://github.com/roinergaon/BackEnd_Automation/assets/50953734/67db569b-886e-4f7a-861d-311a2184674b)
+![2](https://github.com/roinergaon/BackEnd_Automation/assets/50953734/14550d7f-22c9-4feb-af50-305d5754a425)
