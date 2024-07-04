@@ -1,0 +1,2 @@
+""2024-07-02 11:58:57" DEBUG 27720 connectionpool.py    Starting new HTTP connection (1): localhost:8081"
+""2024-07-02 11:58:57" DEBUG 27720 connectionpool.py    http://localhost:8081 "GET /health HTTP/1.1" 200 30"
