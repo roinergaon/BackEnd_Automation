@@ -1,7 +1,7 @@
 # Backend Automation with Python for API
 
 ## Overview
-This repository contains code for backend automation using Python, primarily focusing on testing APIs. It aims to ensure the reliability and security.
+This repository contains code for backend automation using Python, primarily focusing on testing APIs.
 
 ## Technologies Used
 - Python programming language
