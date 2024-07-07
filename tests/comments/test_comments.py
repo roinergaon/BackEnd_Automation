@@ -33,6 +33,7 @@ def test_cud_comment(login_as_admin):
     assert response_data["likes"] == 3
 
     response = Comments().delete_comment(APP_URL, login_as_admin, comment_id)
+
     assert response.ok
     response_data = response.json()
     LOG.debug(response_data)
